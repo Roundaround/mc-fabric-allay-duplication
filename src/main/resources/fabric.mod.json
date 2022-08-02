@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "allayduplication",
+  "version": "${version}",
+  "name": "Allay Duplication",
+  "description": "Bring 1.19.1 allay duplication to 1.19!",
+  "authors": [
+    "Roundaround"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/roundaround-allay-duplication",
+    "sources": "https://github.com/Roundaround/mc-fabric-allay-duplication",
+    "issues": "https://github.com/Roundaround/mc-fabric-allay-duplication/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/allayduplication/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.roundaround.allayduplication.AllayDuplicationMod"
+    ]
+  },
+  "mixins": [
+    "allayduplication.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.19.x",
+    "java": ">=17"
+  }
+}

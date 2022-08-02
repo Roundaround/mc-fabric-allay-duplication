@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.roundaround.allayduplication.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AllayEntityMixin",
+    "AllayEntityModelMixin",
+    "GameEventInvoker",
+    "JukeboxBlockEntityMixin",
+    "JukeboxBlockMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
