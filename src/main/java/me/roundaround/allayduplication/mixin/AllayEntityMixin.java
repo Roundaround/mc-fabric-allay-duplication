@@ -132,7 +132,6 @@ public abstract class AllayEntityMixin extends MobEntity implements AllayEntityE
   }
 
   public void updateJukeboxPos(BlockPos jukeboxPos, boolean playing) {
-    AllayDuplicationMod.LOGGER.info("Updating jukebox position");
     if (playing) {
       if (!isDancing()) {
         this.jukeboxPos = jukeboxPos;
